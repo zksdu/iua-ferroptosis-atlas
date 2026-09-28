@@ -1,0 +1,38 @@
+﻿gene,modules,n_modules
+ACSL4,Pro-ferroptosis,1
+ALOX15,Pro-ferroptosis,1
+ALOX5,Pro-ferroptosis,1
+ALOXE3,Pro-ferroptosis,1
+CCL2,Inflammation/HMGB1-axis,1
+CCL3,Inflammation/HMGB1-axis,1
+CCL4,Inflammation/HMGB1-axis,1
+CD83,Inflammation/HMGB1-axis,1
+CXCL8,Inflammation/HMGB1-axis,1
+DHODH,Ferroptosis-defense,1
+FTH1,Ferroptosis-defense; Iron-handling,2
+FTL,Ferroptosis-defense; Iron-handling,2
+GCLC,Ferroptosis-defense,1
+GCLM,Ferroptosis-defense,1
+GPX4,Ferroptosis-defense,1
+HMOX1,Iron-handling,1
+IL1B,Inflammation/HMGB1-axis,1
+IL6,Inflammation/HMGB1-axis,1
+LPCAT3,Pro-ferroptosis,1
+NCOA4,Pro-ferroptosis; Iron-handling,2
+NLRP3,Inflammation/HMGB1-axis,1
+NOX1,Pro-ferroptosis,1
+NOX4,Pro-ferroptosis,1
+NQO1,Ferroptosis-defense,1
+PLA2G6,Pro-ferroptosis,1
+PRDX1,Ferroptosis-defense,1
+PTGS2,Pro-ferroptosis,1
+SAT1,Pro-ferroptosis,1
+SLC39A14,Pro-ferroptosis; Iron-handling,2
+SLC3A2,Ferroptosis-defense,1
+SLC40A1,Iron-handling,1
+SLC7A11,Ferroptosis-defense,1
+SOD2,Ferroptosis-defense,1
+SPP1,Inflammation/HMGB1-axis,1
+TFRC,Pro-ferroptosis; Iron-handling,2
+TNF,Inflammation/HMGB1-axis,1
+TXNRD1,Ferroptosis-defense,1
