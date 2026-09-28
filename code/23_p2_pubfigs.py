@@ -207,7 +207,7 @@ ax.axhline(1, color="k", lw=0.8, ls="--")
 ax.set_xticks(range(len(kg))); ax.set_xticklabels(kg.gene, rotation=45, ha="right", fontsize=6)
 ax.set_ylabel("FPKM ratio (thin / adjacent normal)")
 ax.set_title("GSE160633: 8 IUA patients, pooled (direction only)")
-ax.text(len(kg) - 0.5, 1.08, "defense collapse 11/12 lower", ha="right", fontsize=6, color=C_DEF)
+ax.text(len(kg) - 0.5, 1.08, "defense module 11/12 genes lower (key genes shown)", ha="right", fontsize=6, color=C_DEF)
 ax.spines[["top", "right"]].set_visible(False)
 fig.tight_layout()
 save(fig, "P2fig7b_pub_gse160633")
@@ -221,8 +221,12 @@ colors = [C_IUA if g < 0 else C_CTL for g in sr.hedges_g]
 ax.barh(range(len(sr)), sr.hedges_g, color=colors, height=0.6)
 ax.set_yticks(range(len(sr))); ax.set_yticklabels(sr.label, fontsize=6)
 for i, (g, wp, np_) in enumerate(zip(sr.hedges_g, sr.welch_p, sr.n_AS_samples)):
-    ax.text(g + (0.06 if g > 0 else -0.06), i, f"p={wp:.3f} (n={np_}v{sr.n_CTL_samples.iloc[i]})",
-            va="center", ha="left" if g > 0 else "right", fontsize=5)
+    if g < -2.5:  # 超长负条：文字放条内右端白字，防止越出轴与 y 标签重叠
+        ax.text(g + 0.06, i, f"p={wp:.3f} (n={np_}v{sr.n_CTL_samples.iloc[i]})",
+                va="center", ha="left", fontsize=5, color="white", fontweight="bold")
+    else:
+        ax.text(g + (0.06 if g > 0 else -0.06), i, f"p={wp:.3f} (n={np_}v{sr.n_CTL_samples.iloc[i]})",
+                va="center", ha="left" if g > 0 else "right", fontsize=5)
 ax.axvline(0, color="k", lw=0.6)
 ax.set_xlabel("Hedges g (sample-level, AS vs Control)")
 ax.set_title("Sample-level robustness: 7/7 direction-consistent")
