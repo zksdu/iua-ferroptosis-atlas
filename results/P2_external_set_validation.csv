@@ -1,0 +1,5 @@
+set_name,n_genes_in_data,celltype,delta_AS_minus_CTL,pval,padj
+KEGG_2021_Ferroptosis,16,Epithelium,-0.0342,4.65810321744563e-19,9.31620643489126e-19
+KEGG_2021_Ferroptosis,16,Macrophages,0.029,0.04855328053236008,0.0647377073764801
+KEGG_2021_Ferroptosis,16,Stromal,-0.0739,0.0,0.0
+KEGG_2021_Ferroptosis,16,DC,0.0186,0.6631541848182678,0.6631541848182678

@@ -1,0 +1,5 @@
+module,celltype,expected,n_loo,n_dir_ok,n_robust,frac_dir_ok,frac_robust,baseline_delta,baseline_pval
+DEFENSE,Epithelium,down,12,12,12,1.0,1.0,-0.2445,0.0
+INFLAM,Macrophages,up,10,7,0,0.7,0.0,0.0778,0.6405263543128967
+IRON,Macrophages,up,7,7,7,1.0,1.0,0.1631,1.2309027624723967e-05
+PRO_FERRO,Epithelium,up,13,13,13,1.0,1.0,0.1446,0.0
