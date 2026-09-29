@@ -55,6 +55,12 @@ figures/    publication figures (300 dpi PNG)
 
 All datasets are public on GEO (accessions above). Code will be archived with a Zenodo DOI upon publication.
 
+Clone this repository:
+
+```
+git clone https://github.com/zksdu/iua-ferroptosis-atlas.git
+```
+
 ## License
 
 MIT
