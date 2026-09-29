@@ -40,7 +40,7 @@ figures/    publication figures (300 dpi PNG)
 
 ## Key findings (summary)
 
-1. **Bulk (GSE224093):** ferroptosis activity elevated, defenses not compensating (0.532 vs 0.563, p = 0.0087, padj = 0.0175); only 4 DEGs at padj < 0.05 & \|log2FC\| > 0.5 — the signal is pathway-level, not single-gene.
+1. **Bulk (GSE224093):** ferroptosis pathway activity is **reduced**, not elevated, with defenses not compensating (0.535 vs 0.564, p = 0.0118, padj = 0.0235); only 4 DEGs at padj < 0.05 & \|log2FC\| > 0.5 — the signal is pathway-level, not single-gene.
 2. **Single-cell (GSE215968):** epithelium is the only major cell type with a dual hit (activity +0.145 / defense −0.244, both padj ≈ 0); macrophages are the dominant myeloid iron sink (+0.163, padj = 2.5e-5); ferroptosis–inflammation coupling strongest in macrophages (ρ = 0.30) and dendritic cells (ρ = 0.31).
 3. **HMGB1 axis:** epithelial HMGB1 down (−0.155) with myeloid activation (DC +0.291, Mac +0.114) — consistent with release-and-uptake redistribution.
 4. **Therapy cohort (GSE311899, 236,867 cells, 8 epithelial + 9 stromal pairs):** epithelial defenses do **not** recover at mRNA level (Δ −0.016, p = 0.46); stromal pro-ferroptotic (+0.487, p = 0.027) and defensive (+0.279, p = 0.039) modules rise in parallel, interpreted as regenerative transcriptional rebound (hypothesis-generating only). Reported transparently as a negative result for epithelial defense recovery.

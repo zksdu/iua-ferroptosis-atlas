@@ -1,38 +1,177 @@
-﻿gene,modules,n_modules
-ACSL4,Pro-ferroptosis,1
-ALOX15,Pro-ferroptosis,1
-ALOX5,Pro-ferroptosis,1
-ALOXE3,Pro-ferroptosis,1
-CCL2,Inflammation/HMGB1-axis,1
-CCL3,Inflammation/HMGB1-axis,1
-CCL4,Inflammation/HMGB1-axis,1
-CD83,Inflammation/HMGB1-axis,1
-CXCL8,Inflammation/HMGB1-axis,1
-DHODH,Ferroptosis-defense,1
-FTH1,Ferroptosis-defense; Iron-handling,2
-FTL,Ferroptosis-defense; Iron-handling,2
-GCLC,Ferroptosis-defense,1
-GCLM,Ferroptosis-defense,1
-GPX4,Ferroptosis-defense,1
-HMOX1,Iron-handling,1
-IL1B,Inflammation/HMGB1-axis,1
-IL6,Inflammation/HMGB1-axis,1
-LPCAT3,Pro-ferroptosis,1
-NCOA4,Pro-ferroptosis; Iron-handling,2
-NLRP3,Inflammation/HMGB1-axis,1
-NOX1,Pro-ferroptosis,1
-NOX4,Pro-ferroptosis,1
-NQO1,Ferroptosis-defense,1
-PLA2G6,Pro-ferroptosis,1
-PRDX1,Ferroptosis-defense,1
-PTGS2,Pro-ferroptosis,1
-SAT1,Pro-ferroptosis,1
-SLC39A14,Pro-ferroptosis; Iron-handling,2
-SLC3A2,Ferroptosis-defense,1
-SLC40A1,Iron-handling,1
-SLC7A11,Ferroptosis-defense,1
-SOD2,Ferroptosis-defense,1
-SPP1,Inflammation/HMGB1-axis,1
-TFRC,Pro-ferroptosis; Iron-handling,2
-TNF,Inflammation/HMGB1-axis,1
-TXNRD1,Ferroptosis-defense,1
+panel,gene,note
+"bulk_FERROPTOSIS (64g, FerrDb V2)",ACSL4,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",AIFM2,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",ALOX12,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",ALOX15,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",ALOX5,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",ATG5,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",ATG7,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",BECN1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",CDKN1A,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",CISD1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",CPS1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",DHODH,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",DHFR,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",DPP4,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",FANCD2,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",FTH1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",FTL,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",G6PD,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",GCH1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",GLS,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",GLS2,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",GPX4,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",GSS,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",GCLC,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",GCLM,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",HMOX1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",HSPB1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",IREB2,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",KEAP1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",LPCAT3,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",METTL14,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",NCOA4,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",NFE2L2,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",NOS2,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",NOX1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",NOX4,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",NQO1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",PHKG2,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",PTGS2,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",RRM2,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",SAT1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",SLC3A2,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",SLC7A11,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",SLC40A1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",SLC11A2,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",SQSTM1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",STEAP3,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",TFRC,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",TK1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",TPP2,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",VDAC2,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",VDAC3,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",ATF4,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",HAMP,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",CP,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",ABCB6,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",ACSL3,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",MANF,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",SLC39A8,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",SLC39A14,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",CAV1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",ETS1,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",ISCU,
+"bulk_FERROPTOSIS (64g, FerrDb V2)",Pdia6,
+bulk_HMGB1_AXIS (20g),HMGB1,
+bulk_HMGB1_AXIS (20g),TLR2,
+bulk_HMGB1_AXIS (20g),TLR4,
+bulk_HMGB1_AXIS (20g),TLR9,
+bulk_HMGB1_AXIS (20g),AGER,
+bulk_HMGB1_AXIS (20g),NLRP3,
+bulk_HMGB1_AXIS (20g),AIM2,
+bulk_HMGB1_AXIS (20g),PYCARD,
+bulk_HMGB1_AXIS (20g),CASP1,
+bulk_HMGB1_AXIS (20g),CASP4,
+bulk_HMGB1_AXIS (20g),CASP5,
+bulk_HMGB1_AXIS (20g),IL1B,
+bulk_HMGB1_AXIS (20g),IL18,
+bulk_HMGB1_AXIS (20g),MYD88,
+bulk_HMGB1_AXIS (20g),TICAM1,
+bulk_HMGB1_AXIS (20g),RELA,
+bulk_HMGB1_AXIS (20g),NFKB1,
+bulk_HMGB1_AXIS (20g),NFKBIA,
+bulk_HMGB1_AXIS (20g),CXCL8,
+bulk_HMGB1_AXIS (20g),CCL2,
+bulk_NOTCH (16g),NOTCH1,
+bulk_NOTCH (16g),NOTCH2,
+bulk_NOTCH (16g),NOTCH3,
+bulk_NOTCH (16g),NOTCH4,
+bulk_NOTCH (16g),DLL1,
+bulk_NOTCH (16g),DLL3,
+bulk_NOTCH (16g),DLL4,
+bulk_NOTCH (16g),JAG1,
+bulk_NOTCH (16g),JAG2,
+bulk_NOTCH (16g),RBPJ,
+bulk_NOTCH (16g),MAML1,
+bulk_NOTCH (16g),MAML2,
+bulk_NOTCH (16g),HES1,
+bulk_NOTCH (16g),HES5,
+bulk_NOTCH (16g),HEY1,
+bulk_NOTCH (16g),HEYL,
+bulk_WNT (39g),WNT1,
+bulk_WNT (39g),WNT2,
+bulk_WNT (39g),WNT3,
+bulk_WNT (39g),WNT3A,
+bulk_WNT (39g),WNT4,
+bulk_WNT (39g),WNT5A,
+bulk_WNT (39g),WNT5B,
+bulk_WNT (39g),WNT7A,
+bulk_WNT (39g),WNT7B,
+bulk_WNT (39g),WNT10A,
+bulk_WNT (39g),WNT11,
+bulk_WNT (39g),WNT16,
+bulk_WNT (39g),FZD1,
+bulk_WNT (39g),FZD2,
+bulk_WNT (39g),FZD3,
+bulk_WNT (39g),FZD4,
+bulk_WNT (39g),FZD5,
+bulk_WNT (39g),FZD6,
+bulk_WNT (39g),FZD7,
+bulk_WNT (39g),FZD8,
+bulk_WNT (39g),FZD9,
+bulk_WNT (39g),FZD10,
+bulk_WNT (39g),LRP5,
+bulk_WNT (39g),LRP6,
+bulk_WNT (39g),CTNNB1,
+bulk_WNT (39g),APC,
+bulk_WNT (39g),AXIN1,
+bulk_WNT (39g),AXIN2,
+bulk_WNT (39g),GSK3B,
+bulk_WNT (39g),TCF7L1,
+bulk_WNT (39g),TCF7L2,
+bulk_WNT (39g),LEF1,
+bulk_WNT (39g),MYC,
+bulk_WNT (39g),CCND1,
+bulk_WNT (39g),DKK1,
+bulk_WNT (39g),SFRP1,
+bulk_WNT (39g),WIF1,
+bulk_WNT (39g),ROR1,
+bulk_WNT (39g),ROR2,
+sc_Pro-ferroptosis,ACSL4,n_modules=1
+sc_Pro-ferroptosis,ALOX15,n_modules=1
+sc_Pro-ferroptosis,ALOX5,n_modules=1
+sc_Pro-ferroptosis,ALOXE3,n_modules=1
+sc_Inflammation/HMGB1-axis,CCL2,n_modules=1
+sc_Inflammation/HMGB1-axis,CCL3,n_modules=1
+sc_Inflammation/HMGB1-axis,CCL4,n_modules=1
+sc_Inflammation/HMGB1-axis,CD83,n_modules=1
+sc_Inflammation/HMGB1-axis,CXCL8,n_modules=1
+sc_Ferroptosis-defense,DHODH,n_modules=1
+sc_Ferroptosis-defense; Iron-handling,FTH1,n_modules=2
+sc_Ferroptosis-defense; Iron-handling,FTL,n_modules=2
+sc_Ferroptosis-defense,GCLC,n_modules=1
+sc_Ferroptosis-defense,GCLM,n_modules=1
+sc_Ferroptosis-defense,GPX4,n_modules=1
+sc_Iron-handling,HMOX1,n_modules=1
+sc_Inflammation/HMGB1-axis,IL1B,n_modules=1
+sc_Inflammation/HMGB1-axis,IL6,n_modules=1
+sc_Pro-ferroptosis,LPCAT3,n_modules=1
+sc_Pro-ferroptosis; Iron-handling,NCOA4,n_modules=2
+sc_Inflammation/HMGB1-axis,NLRP3,n_modules=1
+sc_Pro-ferroptosis,NOX1,n_modules=1
+sc_Pro-ferroptosis,NOX4,n_modules=1
+sc_Ferroptosis-defense,NQO1,n_modules=1
+sc_Pro-ferroptosis,PLA2G6,n_modules=1
+sc_Ferroptosis-defense,PRDX1,n_modules=1
+sc_Pro-ferroptosis,PTGS2,n_modules=1
+sc_Pro-ferroptosis,SAT1,n_modules=1
+sc_Pro-ferroptosis; Iron-handling,SLC39A14,n_modules=2
+sc_Ferroptosis-defense,SLC3A2,n_modules=1
+sc_Iron-handling,SLC40A1,n_modules=1
+sc_Ferroptosis-defense,SLC7A11,n_modules=1
+sc_Ferroptosis-defense,SOD2,n_modules=1
+sc_Inflammation/HMGB1-axis,SPP1,n_modules=1
+sc_Pro-ferroptosis; Iron-handling,TFRC,n_modules=2
+sc_Inflammation/HMGB1-axis,TNF,n_modules=1
+sc_Ferroptosis-defense,TXNRD1,n_modules=1
