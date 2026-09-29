@@ -53,7 +53,9 @@ figures/    publication figures (300 dpi PNG)
 
 ## Data availability
 
-All datasets are public on GEO (accessions above). Code will be archived with a Zenodo DOI upon publication.
+All datasets are public on GEO (accessions above).
+
+**DOI (Zenodo archive of this repository):** [10.5281/zenodo.23029284](https://doi.org/10.5281/zenodo.23029284)
 
 Clone this repository:
 
