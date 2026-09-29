@@ -1,4 +1,4 @@
-# Ferroptosis defense collapse, not ferroptosis activation, defines epithelial susceptibility in intrauterine adhesions: a dual-resolution transcriptomic atlas with a myeloid-anchored iron niche
+# Ferroptosis defense collapse, not activation, defines epithelial susceptibility in intrauterine adhesions: a dual-resolution transcriptomic atlas
 
 **Authors:** Bing Song¹*
 **Affiliations:** ¹ The Third Affiliated Hospital of Guangzhou Medical University, Guangzhou, China
