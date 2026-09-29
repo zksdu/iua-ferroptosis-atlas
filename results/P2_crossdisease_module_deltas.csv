@@ -1,0 +1,17 @@
+compartment,module,IUA_ct,PE_ct,delta_IUA,padj_IUA,delta_PE,padj_PE
+Parenchyma,ferro_activity,Epithelium,Trophoblast,0.1446,0.0,-0.1697,0.0
+Parenchyma,ferro_defense,Epithelium,Trophoblast,-0.2445,0.0,-0.1092,0.0
+Parenchyma,iron_load,Epithelium,Trophoblast,0.0513,0.0126742159149476,-0.1855,0.0
+Parenchyma,inflam_score,Epithelium,Trophoblast,-0.2696,0.0,-0.0132,4.939405680813655e-34
+Stroma,ferro_activity,Stromal,Fibro_Stromal,-0.048,0.0,-0.0747,4.209687732223546e-16
+Stroma,ferro_defense,Stromal,Fibro_Stromal,-0.1367,0.0,0.1053,2.6492532755408805e-18
+Stroma,iron_load,Stromal,Fibro_Stromal,-0.0648,0.0,0.0339,0.0002277717116828
+Stroma,inflam_score,Stromal,Fibro_Stromal,-0.098,0.0,-0.0674,6.2693396543312705e-34
+Macrophage,ferro_activity,Macrophages,Hofbauer,0.1224,0.00351223628968,0.0214,0.2541783018545671
+Macrophage,ferro_defense,Macrophages,Hofbauer,-0.0716,0.2229261627564063,0.0597,1.3040494463091498e-05
+Macrophage,iron_load,Macrophages,Hofbauer,0.1631,2.461805524944793e-05,0.1711,1.88608098446176e-17
+Macrophage,inflam_score,Macrophages,Hofbauer,0.0778,0.6626134699788587,-0.2113,1.558003012317296e-10
+Endothelial,ferro_activity,Endothelium,Endothelial,-0.0614,6.330869746632727e-21,-0.187,1.1088640582669083e-10
+Endothelial,ferro_defense,Endothelium,Endothelial,-0.2497,0.0,0.0054,0.296104747908456
+Endothelial,iron_load,Endothelium,Endothelial,-0.1538,5.562076981473889e-43,0.0033,0.0179422451899601
+Endothelial,inflam_score,Endothelium,Endothelial,-0.1839,0.0,-0.2298,1.0128544793812809e-15
